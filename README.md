@@ -1,37 +1,80 @@
-# Student Performance Analysis 📊
+🏥 Healthcare Dataset Analysis
+📌 Project Overview
 
-## 📌 Project Overview
-This project analyzes a dataset containing student study habits and exam performance.  
-The goal was to explore relationships between study hours, sleep, attendance, and exam scores.
+This project focuses on analyzing a Healthcare Dataset to extract meaningful insights and visualize key patterns.
+The goal is to understand relationships between patient health factors (like age, gender, medical conditions, treatment history, etc.) and outcomes such as recovery, readmission, or severity.
 
-## 🗂️ Dataset Columns
-- student_id  
-- hours_studied  
-- sleep_hours  
-- attendance_percent  
-- previous_scores  
-- exam_score  
+📂 Dataset Information
 
-## 🔍 Steps Performed
-1. Imported dataset (CSV format)  
-2. Checked for null values and duplicates (none found ✅)  
-3. Performed exploratory data analysis (EDA)  
-4. Visualized data using Matplotlib & Seaborn  
-5. Extracted key insights  
+The dataset contains healthcare-related attributes such as:
 
-## 📊 Key Insights
-- The student with the maximum attendance scored **above the class average**  
-- Higher study hours generally led to better exam scores  
-- Students with attendance above 90% scored significantly higher on average  
+Patient ID
 
-## 📈 Visualizations
-- Scatter plot: Hours Studied vs Exam Score  
-- Scatter plot: Attendance vs Exam Score  
-- Correlation heatmap  
+Age
 
-## 🚀 Tools Used
-- Python (Pandas, Numpy)  
-- Matplotlib  
-- Seaborn  
+Gender
 
----
+Blood Pressure / Sugar Levels
+
+Medical Condition / Diagnosis
+
+Treatment Type
+
+Hospital Stay Duration
+
+Recovery / Outcome Status
+
+(Adjust columns based on your dataset)
+
+🔍 Steps Performed
+
+Data Loading – Read the dataset using pandas
+
+Data Cleaning
+
+Handled missing values
+
+Removed duplicates
+
+Corrected data types
+
+Exploratory Data Analysis (EDA)
+
+Summary statistics of key features
+
+Patient distribution by age & gender
+
+Common medical conditions
+
+Treatment effectiveness
+
+Data Visualization
+
+Bar plots, Pie charts, and Histograms
+
+Correlation Heatmaps
+
+Line & Scatter plots for trend analysis
+
+Insights
+
+Example: Older patients have longer hospital stays
+
+Example: Patients with higher sugar levels are more prone to readmission
+
+Example: Certain treatments reduce recovery time significantly
+
+📊 Key Insights
+
+✔️ Patients with higher attendance/check-ups often show better recovery rates
+✔️ Certain conditions (like high BP + diabetes) increase hospital stay duration
+✔️ Female patients between 30–50 had higher readmission rates
+✔️ Early diagnosis reduces severity levels
+
+🛠️ Tools & Libraries Used
+
+Python (Pandas, Numpy, Matplotlib, Seaborn)
+
+Jupyter Notebook
+
+Git & GitHub for version control
